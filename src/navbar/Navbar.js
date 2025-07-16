@@ -17,6 +17,7 @@ export const Navbar = () => {
           {showNew && <New />}
         </div>
         <p className="font-bold text-3xl ">ecomus</p>
+        <p>abc</p>
       </div>
 
       <div className="w-full fixed top-0 z-10 bg-white shadow p-5">
