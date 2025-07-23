@@ -11,7 +11,7 @@ export function About(){
         <div >
             <Gadgets/>
         </div>
-        <div className="px-7  sm:px-10  md:px-16">
+        <div className="px-7 md:px-10">
             <Ecomus/>
             <Mission/>
             <Quality/>

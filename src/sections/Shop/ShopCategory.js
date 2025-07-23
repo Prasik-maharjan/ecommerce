@@ -33,14 +33,14 @@ function Shipping({ shipping }) {
         <h1 className="font-semibold">{shipping.head}</h1>
         <p className="text-sm">{shipping.par}</p>
       </div>
-    </div>
+    </div>    
   );
 }
 
 function Gallary({gallary}){
   return(
     <div className="w-24">
-      <img className="bg-blue-50" src={gallary.gal}/>
+      <img className="bg-blue-50" src={gallary.gal} alt=""/>
     </div>
   )
 }

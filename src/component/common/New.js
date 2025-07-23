@@ -3,7 +3,7 @@ import { Link} from "react-router-dom";
 
 export function New(){
     return(
-    <div className="bg-white z-10 w-40 h-[10rem] border-4">
+    <div className="bg-white z-10 w-40 h-[10rem]">
         <div className="flex flex-col">
               <Link to="/home" className={"/home"}>
               Home
