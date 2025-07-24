@@ -4,7 +4,7 @@ function Product({ product }) {
   return (
     <div>
       <div>
-        <img src={product.imag} alt="abc" />
+        <img className="bg-gray-200" src={product.imag} alt="abc" />
       </div>
       <div className="p-2 pb-4">
         <p>{product.detail}</p>

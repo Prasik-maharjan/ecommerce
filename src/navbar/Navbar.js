@@ -6,8 +6,8 @@ export const Navbar = () => {
   const [showNew, setShowNew] = useState(false);
 
   return (
-    <div className="relative z-10">
-      <div className="w-full fixed top-0 bg-white shadow-md p-3 z-10">
+    <div className="relative z-50">
+      <div className="w-full fixed top-0 bg-white shadow-md p-3 px-10 z-10">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex items-center gap-5">
 

@@ -2,7 +2,7 @@ import { rating } from "../../data/Homedata";
 
 function Rating({ rating }) {
   return (
-    <div className="bg-white flex-1 p-9 rounded-lg">
+    <div className="bg-white flex-1 py-7 px-12  rounded-lg">
       <div className="mb-7">
         <img
           className="w-20"
@@ -10,7 +10,7 @@ function Rating({ rating }) {
           alt="star"
         />
         <h1 className="font-semibold text-lg">Best Online Fashoin Site</h1>
-        <p className="text-lg py-2 pb-5">
+        <p className=" py-2">
           "I always find something stylish and  affordable on this web
           electronic site"
         </p>
@@ -19,7 +19,7 @@ function Rating({ rating }) {
       </div>
       <div className="flex">
         <div>
-          <img className="w-20" src={rating.image} alt="product" />
+          <img className="w-20" src={rating.image} alt="product" /> 
         </div>
         <div className="ml-3 pr-6">
           <h1 className="text-sm">{rating.heading}</h1>
@@ -41,7 +41,7 @@ export function Client() {
             accessories.
           </p>
         </div>
-        <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-7">
+        <div className="grid  lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 py-7">
           {rating.map((r, i) => (
             <Rating key={i} rating={r} />
           ))}

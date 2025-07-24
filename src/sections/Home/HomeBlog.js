@@ -37,7 +37,7 @@ export function Blogs() {
         <div className="text-center text-4xl pb-12">
           <p>Blogs post</p>
         </div>
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-7">
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-10">
           {blog.map((b, i) => (
             <Blog key={i} blog={b} />
           ))}
